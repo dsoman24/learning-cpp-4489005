@@ -6,9 +6,13 @@
 #include <string>
 
 int main(){
+
+    std::cout << "Name: " << std::flush;
+
     std::string str;
     std::cin >> str;
-    std::cout << str;
+
+    std::cout << "Hello, " << str << "." << std::endl;
 
     std::cout << std::endl << std::endl;
     return (0);
